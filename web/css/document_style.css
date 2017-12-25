@@ -1,0 +1,13 @@
+.classification{
+    width: 100%;
+    height: 50px;
+    background-color: #252829;
+}
+.classification li{
+    height: 30px;
+    float: left;
+    margin: 10px 20px;
+    font-family: 宋体;
+    font-size: 36px;
+    color: #FFFFFF;
+}

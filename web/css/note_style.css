@@ -1,0 +1,74 @@
+.note-catalog{
+    width: 24.725%;
+    height: 1400px;
+    float: left;
+    /*background-color: #629feb;*/
+}
+.note-content{
+    width: 49.450%;
+    height: 1400px;
+    float: left;
+    background-color: white;
+}
+.note-functions{
+    height: 1400px;
+    float: left;
+    /*background-color: #629feb;*/
+}
+.note-show{
+    width: 794px;
+    height: 1123px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 75px;
+    box-shadow: 0 0 5px #000;
+
+}
+.note-catalog-frame{
+    width: 300px;
+    height: 1400px;
+    background-color: #252829;
+}
+.note-catalog-h{
+    width: 300px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    font-family: 宋体;
+    text-align: center;
+    position: relative;
+}
+.note-catalog-h h3{
+    margin-left: 50px;
+
+}
+.note-catalog-frame hr{
+    color: white;
+    width: 300px;
+}
+.note-catalog-frame li a{
+    width: 300px;
+    line-height: 50px;
+    padding: 20px 0;
+    font-size: 14px;
+    text-align: left;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+
+.note-catalog-frame li:hover{
+    background: #357dd7;
+}
+/*这是伸缩栏*/
+.list{width: 80%;border-bottom:solid 1px #111213;margin:8.88% auto 0 auto;}
+.list ul li{background-color:#111213; border:solid 1px #FFFFFF; border-bottom:0;}
+.list ul li a{padding-left: 10px;color: #fff; font-size:12px; display: block; font-weight:bold; height:36px;line-height: 36px;position: relative;
+}
+.list ul li ul{display: none;}
+.list ul li ul li { border-left:0; border-right:0; background-color:#252829; border-color:#ffffff;}
+.list ul li ul li ul{display: none;}
+.list ul li ul li a{ padding-left:20px;}
+.list ul li ul li ul li { background-color:#313131; border-color:#FFFFFF; }
+.last{ background-color:#d6e6f1; border-color:#6196bb; }
+.list ul li ul li ul li a{ color:#316a91; padding-left:30px;}

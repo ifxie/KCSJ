@@ -1,0 +1,48 @@
+/*css顺序以自顶向下排序*/
+
+body{
+    margin: 0px;
+}
+.page{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 1500px;
+}
+.info{
+    width: 100%;
+    height: 90px;
+    background-color: #dddddd
+}
+.info .logo{
+    float: left;
+    height: 90px;
+    width: 31.56%;
+    margin-left: 7.81%;
+}
+.info .search{
+    width: 26%;
+    height: 43px;
+    float: left;
+    margin-top: 23px;
+    margin-left: 20.8%;
+
+}
+.info .search  #input1{
+    width: 80.4%;
+    height: 37px;
+    float: left;
+    border-radius: 5px;
+
+
+}
+.info .search #input2{
+    height: 39px;
+    width: 11%;
+    margin-left: 2%;
+    float: left;
+}
+.content{
+    margin-left: 100px;
+    height: 1500px;
+}
