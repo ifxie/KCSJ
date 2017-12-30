@@ -11,7 +11,7 @@
 <body>
 <div class="page">
     <!-- 头部信息条 -->
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <div class="content">
         <div class="note-catalog">
             <div class="list">

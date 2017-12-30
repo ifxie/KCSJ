@@ -11,7 +11,7 @@
 <body>
 <div class="page">
     <!-- 头部信息条 -->
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <script type="text/javascript" src="js/showlist.js"></script>
     <div class="content">
         <div class="main-in content-in">

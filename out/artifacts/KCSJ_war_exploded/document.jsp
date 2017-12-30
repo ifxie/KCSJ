@@ -86,16 +86,16 @@
 <body>
 <div class="page">
     <!-- 头部信息条 -->
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <div class="content">
         <div class="classification">
             <ul>
-                <li>C++</li>
-                <li>JAVA</li>
-                <li>Python</li>
-                <li>PHP</li>
-                <li>操作系统</li>
-                <li>pascal</li>
+                <li><a href="#">C++</a></li>
+                <li><a href="#">JAVA</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">操作系统</a></li>
+                <li><a href="#">pascal</a></li>
             </ul>
         </div>
         <div class="doc-display">
@@ -152,7 +152,7 @@
                 </div>
                 <div class="function">
                     <div class="download">
-                        <a href="#">下载</a>
+                        <a href="www.baidu.com">下载</a>
                     </div>
                     <div class="collect">
                         <a href="#">收藏</a>

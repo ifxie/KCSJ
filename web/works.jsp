@@ -11,7 +11,7 @@
 <body>
 <div class="page">
     <!-- 头部信息条 -->
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <!-- 轮播图 -->
     <script type="text/javascript" src="js/ZoomPic.js"></script>
     <script type="text/javascript">

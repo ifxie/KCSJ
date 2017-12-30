@@ -4,9 +4,12 @@
       <img src="images/logo.png" height="90x">
     </div>
     <div class="search">
-      <form action="post">
+      <form action="#" method="post">
         <input type="text" id="input1">
         <input type="submit" id="input2">
+      </form>
+      <form action="login.jsp" method="get">
+        <input type="submit" id="input3" value="登录">
       </form>
     </div>
   </div>
@@ -28,39 +31,37 @@
         <div class="nav-slide-o"></div>
         <div class="nav-slide-o">
           <ul>
-            <li><a href="#"><span>二级目录1</span></a></li>
-            <li><a href="#"><span>二级目录2</span></a></li>
-            <li><a href="#"><span>二级目录3</span></a></li>
+            <li><a href="#"><span>PPT整理</span></a></li>
+            <li><a href="#"><span>上课资料</span></a></li>
+            <li><a href="#"><span>课后作业</span></a></li>
 
           </ul>
         </div>
         <div class="nav-slide-o">
           <ul>
-            <li><a href="#"><span>二级目录1</span></a></li>
-            <li><a href="#"><span>二级目录2</span></a></li>
-            <li><a href="#"><span>二级目录3</span></a></li>
+            <li><a href="#"><span>随笔</span></a></li>
+            <li><a href="#"><span>博客</span></a></li>
+            <li><a href="#"><span>转载</span></a></li>
           </ul>
         </div>
         <div class="nav-slide-o">
           <ul>
-            <li><a href="#"><span>网站设计1</span></a></li>
-            <li><a href="#"><span>网站设计2</span></a></li>
-            <li><a href="#"><span>网站设计3</span></a></li>
-            <li><a href="#"><span>网站设计4</span></a></li>
+            <li><a href="#"><span>PDF书籍</span></a></li>
+            <li><a href="#"><span>WORD文档</span></a></li>
+            <li><a href="#"><span>技术干货</span></a></li>
+            <li><a href="#"><span>面试试题</span></a></li>
           </ul>
         </div>
         <div class="nav-slide-o">
           <ul>
-            <li><a href="#"><span>二级目录1</span></a></li>
-            <li><a href="#"><span>二级目录2</span></a></li>
-            <li><a href="#"><span>二级目录3</span></a></li>
+            <li><a href="#"><span>个人秀</span></a></li>
+            <li><a href="#"><span>团队秀</span></a></li>
           </ul>
         </div>
         <div class="nav-slide-o">
           <ul>
-            <li><a href="#"><span>二级目录1</span></a></li>
-            <li><a href="#"><span>二级目录2</span></a></li>
-            <li><a href="#"><span>二级目录3</span></a></li>
+            <li><a href="#"><span>视频资源</span></a></li>
+            <li><a href="#"><span>网站资源</span></a></li>
           </ul>
         </div>
       </div>
