@@ -4,13 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>作品展</title>
-    <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="css/works_style.css">
-</head>
-<body>
-<div class="page">
-    <!-- 头部信息条 -->
+
     <%@ include file="head.txt" %>
     <!-- 轮播图 -->
     <script type="text/javascript" src="js/ZoomPic.js"></script>
@@ -20,7 +17,6 @@
         })
     </script>
     <div class="content">
-        <div class="Atitle">部门项目展示</div>
         <div id="jswbox">
             <pre class="prev">prev</pre>
             <pre class="next">next</pre>

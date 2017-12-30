@@ -4,13 +4,10 @@
 <head>
     <meta charset="utf-8">
     <title>资源整理</title>
-    <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
+
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="css/source_style.css">
-</head>
-<body>
-<div class="page">
-    <!-- 头部信息条 -->
+
     <%@ include file="head.txt" %>
     <script type="text/javascript" src="js/showlist.js"></script>
     <div class="content">
