@@ -42,25 +42,17 @@
         width: 75%;
         height: 33%;
     }
-    .tiao .login_click{
+    #registerbutton{
+        width: 100px;
         height: 40px;
-        width: 30%;
-        margin-left: 38%;
+        background-color: #316a91;
+        color: white;
+        margin-left: 200px;
+        border-radius: 5px;
     }
-    .login_click a{
-        text-decoration:none;
-        background:#2f435e;
-        color:#f2f2f2;
-        padding: 10px 30px 10px 30px;
-        font-size:16px;
-        font-family: 微软雅黑,宋体,Arial,Helvetica,Verdana,sans-serif;
-        font-weight:bold;
-        border-radius:3px;
-        -webkit-transition:all linear 0.30s;
-        -moz-transition:all linear 0.30s;
-        transition:all linear 0.30s;
+    #registerbutton:hover{
+        background-color: #629feb;
     }
-    .login_click a:hover { background:#385f9e; }
     .tiao a{
         width: 100px;
         height: 100%;
@@ -120,9 +112,7 @@
             </div>
         </div>
         <div class="tiao">
-            <div class="login_click">
-                <a class="btlogin" href="#">注册</a>
-            </div>
+            <input type="button" value="注册" id="registerbutton">
         </div>
     </form>
 </div>
