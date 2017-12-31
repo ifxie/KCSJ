@@ -7,51 +7,74 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="74cc08e9-37b3-4e9f-b276-5544f6fed0a2" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/aliyun_java_sdk_dysmsapi_1_0_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/c3p0_0_9_1_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/bean/User.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/service/Impl/LoginServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/service/Impl/RegistServiceImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/service/LoginService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/service/RegistService.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/servlet/LoginController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/servlet/RegistController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/servlet/SendcodeController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/utils/GetConnectToMysql.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/utils/PhoneUtils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/utils/Sha1Utils.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/META-INF/context.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/aliyun-java-sdk-core-3.3.1.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.0.0.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/com.sun.rowset.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.5.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jfxrt.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/jspsmart.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mail.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/KCSJ.iml" afterPath="$PROJECT_DIR$/KCSJ.iml" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/META-INF/context.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/aliyun-java-sdk-core-3.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.0.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/com.sun.rowset.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/commons-dbutils-1.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/jfxrt.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/jspsmart.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/mail.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/servlet-api.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/aboutus.jsp" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/aboutus.jsp" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/class.jsp" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/class.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/class_style.css" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/class_style.css" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/document_style.css" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/document_style.css" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/mainstyle.css" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/mainstyle.css" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/nav_left.css" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/nav_left.css" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/note_style.css" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/note_style.css" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/source_style.css" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/source_style.css" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/works_style.css" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/css/works_style.css" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/document.jsp" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/document.jsp" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/head.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/head.jsp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/ZoomPic.js" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/ZoomPic.js" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/jquery-1.9.1.min.js" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/jquery.min.js" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/leftnav.js" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/leftnav.js" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/notelist.js" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/notelist.js" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/showlist.js" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/js/showlist.js" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/login.jsp" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/note.jsp" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/note.jsp" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/sendcode.jsp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/source.jsp" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/source.jsp" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/works.jsp" afterPath="$PROJECT_DIR$/out/artifacts/KCSJ_war_exploded/works.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/META-INF/context.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/aliyun-java-sdk-core-3.3.1.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/aliyun-java-sdk-dysmsapi-1.0.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/com.sun.rowset.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.5.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jfxrt.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/jspsmart.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mail.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/servlet-api.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/lib/standard-1.1.2.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change beforePath="$PROJECT_DIR$/web/aboutus.jsp" afterPath="$PROJECT_DIR$/web/aboutus.jsp" />
       <change beforePath="$PROJECT_DIR$/web/class.jsp" afterPath="$PROJECT_DIR$/web/class.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/css/class_style.css" afterPath="$PROJECT_DIR$/web/css/class_style.css" />
+      <change beforePath="$PROJECT_DIR$/web/css/document_style.css" afterPath="$PROJECT_DIR$/web/css/document_style.css" />
       <change beforePath="$PROJECT_DIR$/web/css/mainstyle.css" afterPath="$PROJECT_DIR$/web/css/mainstyle.css" />
+      <change beforePath="$PROJECT_DIR$/web/css/nav_left.css" afterPath="$PROJECT_DIR$/web/css/nav_left.css" />
+      <change beforePath="$PROJECT_DIR$/web/css/note_style.css" afterPath="$PROJECT_DIR$/web/css/note_style.css" />
+      <change beforePath="$PROJECT_DIR$/web/css/source_style.css" afterPath="$PROJECT_DIR$/web/css/source_style.css" />
+      <change beforePath="$PROJECT_DIR$/web/css/works_style.css" afterPath="$PROJECT_DIR$/web/css/works_style.css" />
       <change beforePath="$PROJECT_DIR$/web/document.jsp" afterPath="$PROJECT_DIR$/web/document.jsp" />
-      <change beforePath="$PROJECT_DIR$/web/head.txt" afterPath="$PROJECT_DIR$/web/head.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/head.jsp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/js/ZoomPic.js" afterPath="$PROJECT_DIR$/web/js/ZoomPic.js" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/web/js/jquery-1.9.1.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/js/jquery.min.js" afterPath="$PROJECT_DIR$/web/js/jquery.min.js" />
+      <change beforePath="$PROJECT_DIR$/web/js/leftnav.js" afterPath="$PROJECT_DIR$/web/js/leftnav.js" />
+      <change beforePath="$PROJECT_DIR$/web/js/notelist.js" afterPath="$PROJECT_DIR$/web/js/notelist.js" />
+      <change beforePath="$PROJECT_DIR$/web/js/showlist.js" afterPath="$PROJECT_DIR$/web/js/showlist.js" />
       <change beforePath="$PROJECT_DIR$/web/note.jsp" afterPath="$PROJECT_DIR$/web/note.jsp" />
       <change beforePath="$PROJECT_DIR$/web/source.jsp" afterPath="$PROJECT_DIR$/web/source.jsp" />
       <change beforePath="$PROJECT_DIR$/web/works.jsp" afterPath="$PROJECT_DIR$/web/works.jsp" />
@@ -66,33 +89,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/service/Impl/LoginServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="35" column="25" lean-forward="false" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1514634486809" expanded="true" signature="655:702" ph="select * fro... user" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+            <state relative-caret-position="95">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendcodeController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SendcodeController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/SendcodeController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="494">
               <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,10 +111,42 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="head.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/head.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/register.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="118" column="107" lean-forward="false" selection-start-line="118" selection-start-column="107" selection-end-line="118" selection-end-column="107" />
+              <folding>
+                <element signature="n#style#0;n#input#1;n#div#1;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="100" column="14" lean-forward="true" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="RegistServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/service/Impl/RegistServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
+            <state relative-caret-position="285">
               <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -117,7 +159,7 @@
       <file leaf-file-name="RegistController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/servlet/RegistController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
+            <state relative-caret-position="798">
               <caret line="54" column="40" lean-forward="false" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -206,12 +248,13 @@
         <option value="$PROJECT_DIR$/src/service/Impl/LoginServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/service/Impl/RegistServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/sendcode.jsp" />
         <option value="$PROJECT_DIR$/src/service/RegistService.java" />
         <option value="$PROJECT_DIR$/src/utils/PhoneUtils.java" />
         <option value="$PROJECT_DIR$/src/servlet/RegistController.java" />
         <option value="$PROJECT_DIR$/src/servlet/SendcodeController.java" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -256,6 +299,17 @@
               <item name="KCSJ" type="b2602c69:ProjectViewProjectNode" />
               <item name="KCSJ" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="KCSJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KCSJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="KCSJ" type="b2602c69:ProjectViewProjectNode" />
+              <item name="KCSJ" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -276,9 +330,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,11 +546,12 @@
       <workItem from="1514615643635" duration="9284000" />
       <workItem from="1514631642987" duration="5291000" />
       <workItem from="1514640055422" duration="1582000" />
+      <workItem from="1514700623304" duration="747000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39487000" />
+    <option name="totallyTimeSpent" value="40234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -511,20 +566,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32795697" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2750533" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2782516" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -546,21 +601,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/document.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="55" lean-forward="false" selection-start-line="8" selection-start-column="55" selection-end-line="8" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/note_style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="16" lean-forward="false" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/css/mainstyle.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -601,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
           <caret line="23" column="38" lean-forward="false" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,7 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="18" column="49" lean-forward="false" selection-start-line="18" selection-start-column="49" selection-end-line="18" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -825,28 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="376">
           <caret line="64" column="20" lean-forward="false" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
-          <folding>
-            <element signature="e#221#222#0" expanded="false" />
-            <element signature="e#246#247#0" expanded="false" />
-            <element signature="e#279#280#0" expanded="false" />
-            <element signature="e#307#308#0" expanded="false" />
-            <element signature="e#364#365#0" expanded="false" />
-            <element signature="e#395#396#0" expanded="false" />
-            <element signature="e#443#444#0" expanded="false" />
-            <element signature="e#483#484#0" expanded="false" />
-            <element signature="e#540#541#0" expanded="false" />
-            <element signature="e#571#572#0" expanded="false" />
-            <element signature="e#619#620#0" expanded="false" />
-            <element signature="e#659#660#0" expanded="false" />
-            <element signature="e#716#717#0" expanded="false" />
-            <element signature="e#747#748#0" expanded="false" />
-            <element signature="e#795#796#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-            <element signature="e#893#894#0" expanded="false" />
-            <element signature="e#928#929#0" expanded="false" />
-            <element signature="e#981#982#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -879,33 +892,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="35" lean-forward="false" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/sendcode.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/web/sendcode.jsp" />
     <entry file="file://$PROJECT_DIR$/src/service/Impl/RegistServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
+        <state relative-caret-position="285">
           <caret line="25" column="54" lean-forward="false" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -932,7 +922,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/RegistController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
+        <state relative-caret-position="798">
           <caret line="54" column="40" lean-forward="false" selection-start-line="54" selection-start-column="40" selection-end-line="54" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -942,11 +932,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/servlet/SendcodeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="494">
           <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/head.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="118" column="107" lean-forward="false" selection-start-line="118" selection-start-column="107" selection-end-line="118" selection-end-column="107" />
+          <folding>
+            <element signature="n#style#0;n#input#1;n#div#1;n#div#5;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="100" column="14" lean-forward="true" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

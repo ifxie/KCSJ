@@ -4,7 +4,6 @@
 <head>
     <meta charset="utf-8">
     <title>课堂学习</title>
-    <link rel="stylesheet" type="text/css" href="css/mainstyle.css">
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="css/document_style.css">
     <style>
@@ -82,20 +81,18 @@
             text-align: center;
         }
     </style>
-</head>
-<body>
-<div class="page">
-    <!-- 头部信息条 -->
-    <%@ include file="head.jsp" %>
+
+
+    <%@ include file="head.txt" %>
     <div class="content">
         <div class="classification">
             <ul>
-                <li><a href="#">C++</a></li>
-                <li><a href="#">JAVA</a></li>
-                <li><a href="#">Python</a></li>
-                <li><a href="#">PHP</a></li>
-                <li><a href="#">操作系统</a></li>
-                <li><a href="#">pascal</a></li>
+                <li>C++</li>
+                <li>JAVA</li>
+                <li>Python</li>
+                <li>PHP</li>
+                <li>操作系统</li>
+                <li>pascal</li>
             </ul>
         </div>
         <div class="doc-display">
@@ -152,7 +149,7 @@
                 </div>
                 <div class="function">
                     <div class="download">
-                        <a href="www.baidu.com">下载</a>
+                        <a href="#">下载</a>
                     </div>
                     <div class="collect">
                         <a href="#">收藏</a>
