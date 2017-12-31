@@ -74,7 +74,7 @@
 <a href="index.jsp">返回主页</a>
 <a href="login.jsp">跳转至登录页</a>
 <div class="registerframe">
-    <form action="" name="Register" method="post">
+    <form action="" name="regist" method="post">
         <div class="tiao frameName">
             <font size="6">注册</font>
         </div>
@@ -116,12 +116,13 @@
             </div>
             <div style="width: 40%;height: 50%;float: left;">
                 <input type="text" name="identifyingcode" style="width: 50%;height: 60%;" >
-                <input type="button" name="" value="获取验证码" style="height: 60%;">
+                <input type="button" name="sendcode" value="获取验证码" style="height: 60%;" onclick="sendcode()">
             </div>
         </div>
         <div class="tiao">
             <div class="login_click">
-                <a class="btlogin" href="#">注册</a>
+                <%--<a class="btlogin" href="#">注册</a>--%>
+                <input type="submit" value="注册">
             </div>
         </div>
     </form>

@@ -179,7 +179,7 @@
                 </div>
                 <div class="function">
                     <div class="download">
-                        <a href="#">下载</a>
+                        <a href="download.jsp?file=1.doc">下载</a>
                     </div>
                     <div class="collect">
                         <a href="#">收藏</a>
