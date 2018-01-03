@@ -10,56 +10,7 @@
 <head>
     <title>登录</title>
 </head>
-<style>
-    .loginframe{
-        width: 25%;
-        height: 400px;
-        background-color:white;
-        border: 5px solid aqua;
-        position: fixed;
-        top: 150px;
-        left: 37.5%;
-        z-index: 20;
-
-    }
-    .tiao{
-        width: 100%;
-        height: 80px;
-        margin-top: 10px;
-    }
-    .tiao .col1{
-        width: 40%;
-        height: 100%;
-        float: left;
-        text-align: center;
-    }
-    .tiao .col2{
-        width: 60%;
-        height: 100%;
-        float: left;
-    }
-    .tiao .col2 input{
-        width: 75%;
-        height: 33%;
-    }
-    #loginbutton{
-        background-color: #316a91;
-        color: white;
-        margin-left: 200px;
-        border-radius: 5px;
-    }
-    #loginbutton:hover{
-        background-color: #629feb;
-    }
-    .tiao a{
-        width: 100px;
-        height: 100%;
-    }
-    .frameName{
-        text-align: center;
-        font-family: 宋体;
-    }
-</style>
+<link rel="stylesheet" href="css/LoginAndRegister.css">
 <body>
 <a href="index.jsp">返回主页</a>
 <a href="register.jsp">跳转至注册页</a>

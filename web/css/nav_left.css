@@ -1,11 +1,11 @@
 
 
 @charset "utf-8";
-dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, textarea { margin: 0; padding: 0; font-size: 14px; line-height: 24px;  font-family: 'microsoft yahei',verdana,Tahoma; }
-ol, ul, li { list-style: none; line-height: 22px; }
-ol, ul { zoom: 1; }
-h1, h2, h3, h4, h5, h6 { font-size: 100%; }
-img { border: none; max-width: 100%; }
+.nav-main dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td, textarea { margin: 0; padding: 0; font-size: 14px; line-height: 24px;  font-family: 'microsoft yahei',verdana,Tahoma; }
+.nav-main ol, ul, li { list-style: none; line-height: 22px; }
+.nav-main ol, ul { zoom: 1; }
+.nav-main h1, h2, h3, h4, h5, h6 { font-size: 100%; }
+.nav-main img { border: none; max-width: 100%; }
 a, a:link, a:visited { cursor: pointer; text-decoration: none;}
 a:hover { cursor: pointer; }
 .table { border-collapse: collapse; border-spacing: 0; }
