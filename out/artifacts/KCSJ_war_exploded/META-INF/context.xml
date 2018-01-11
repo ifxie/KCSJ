@@ -8,8 +8,8 @@
     password="1150299081"
     driverClassName="com.mysql.jdbc.Driver"
     url="jdbc:mysql://119.23.226.166:3306/MZH_KCSJ?characterEncoding=UTF-8"
-    maxIdle="2"                          
+    maxIdle="10000000"
     maxWait="5000"                     
-    maxActive="4"/>
+    maxActive="20000000000000"/>
     <WatchedResource>WEB-INF/web.xml</WatchedResource> 
 </Context>

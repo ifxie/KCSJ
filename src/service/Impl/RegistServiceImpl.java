@@ -43,9 +43,14 @@ public class RegistServiceImpl  implements RegistService{
                 String sha1_passwd =  Sha1Utils.sha1(user.getPassword());
                 sql.setString(3, handleString(sha1_passwd));
                 sql.setInt(4, user.getContribution());
-
                 int m = sql.executeUpdate();
-                if (m != 0) {
+
+                String sqlstring = "INSERT INTO detial(username) VALUES (?)";
+                sql = connection.prepareStatement(sqlstring);
+                sql.setString(1,handleString(user.getUsername()));
+                int mm = sql.executeUpdate();
+
+                if (m != 0&&mm!=0) {
                     return "注册成功";
                 }else {
                     return "注册失败";

@@ -42,25 +42,17 @@
         width: 75%;
         height: 33%;
     }
-    .tiao .login_click{
+    #registerbutton{
+        width: 100px;
         height: 40px;
-        width: 30%;
-        margin-left: 38%;
+        background-color: #316a91;
+        color: white;
+        margin-left: 200px;
+        border-radius: 5px;
     }
-    .login_click a{
-        text-decoration:none;
-        background:#2f435e;
-        color:#f2f2f2;
-        padding: 10px 30px 10px 30px;
-        font-size:16px;
-        font-family: 微软雅黑,宋体,Arial,Helvetica,Verdana,sans-serif;
-        font-weight:bold;
-        border-radius:3px;
-        -webkit-transition:all linear 0.30s;
-        -moz-transition:all linear 0.30s;
-        transition:all linear 0.30s;
+    #registerbutton:hover{
+        background-color: #629feb;
     }
-    .login_click a:hover { background:#385f9e; }
     .tiao a{
         width: 100px;
         height: 100%;
@@ -74,7 +66,7 @@
 <a href="index.jsp">返回主页</a>
 <a href="login.jsp">跳转至登录页</a>
 <div class="registerframe">
-    <form action="" name="regist" method="post">
+    <form action="regist" name="Register" method="post">
         <div class="tiao frameName">
             <font size="6">注册</font>
         </div>
@@ -83,7 +75,7 @@
                 <font size="4">手机号</font>
             </div>
             <div class="col2">
-                <input type="text" name="phoneNum">
+                <input type="text" name="phoneNum" id="phoneNum">
             </div>
         </div>
         <div class="tiao">
@@ -115,17 +107,44 @@
                 <font size="4">验证码:</font>
             </div>
             <div style="width: 40%;height: 50%;float: left;">
-                <input type="text" name="identifyingcode" style="width: 50%;height: 60%;" >
-                <input type="button" name="sendcode" value="获取验证码" style="height: 60%;" onclick="sendcode()">
+                <input type="text" name="code" style="width: 50%;height: 60%;" >
+                <input type="button" name="" value="获取验证码" style="height: 60%;" onclick="sendcode()">
             </div>
         </div>
         <div class="tiao">
-            <div class="login_click">
-                <%--<a class="btlogin" href="#">注册</a>--%>
-                <input type="submit" value="注册">
-            </div>
+            <input type="submit" value="注册" id="registerbutton">
         </div>
     </form>
 </div>
 </body>
+<script src="./js/jquery.min.js"></script>
+<script>
+    function sendcode() {
+        //isPhoneNum();
+        $.ajax({
+            type:"post",
+            url:"/sendcode",
+            data:{
+                phoneNum:$("#phoneNum").val()
+            },
+            success:function(res){
+                console.log(res);
+
+            }
+        });
+
+    }
+
+    // 校验手机号是否合法
+    function isPhoneNum(){
+        var phonenum = $("#phoneNum").val();
+        var myreg = /^[1][3,4,5,7,8][0-9]{9}$/;
+        if(!myreg.test(phonenum)){
+            alert('请输入有效的手机号码！');
+            return false;
+        }else{
+            return true;
+        }
+    }
+</script>
 </html>

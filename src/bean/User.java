@@ -3,24 +3,14 @@ package bean;
 public class User {
 
     /*
-    * @param id 用户编号
     * @param phoneNum 用户注册手机
     * @param username 用户名
     * @param password 密码
     * @param contribution  贡献值
     * */
 
-    int id;
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    String phoneNum;
+    private String phoneNum;
 
     public String getPhoneNum() {
         return phoneNum;
@@ -30,7 +20,7 @@ public class User {
         this.phoneNum = phoneNum;
     }
 
-    String username;
+    private String username;
 
     public String getUsername() {
         return username;
@@ -40,7 +30,7 @@ public class User {
         this.username = username;
     }
 
-    String password;
+    private String password;
 
     public String getPassword() {
         return password;
@@ -50,7 +40,7 @@ public class User {
         this.password = password;
     }
 
-    int contribution;
+    private int contribution;
     public int getContribution() {
         return contribution;
     }
@@ -63,7 +53,7 @@ public class User {
         phoneNum="";
         username="";
         password="";
-        contribution=0;
+        contribution=10;
 
     }
 }

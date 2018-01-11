@@ -15,7 +15,6 @@ public class LoginServiceImpl  implements LoginService{
         try{
             //连接数据库
             Connection connection = GetConnectToMysql.getconn();
-
             //获取前端页面传进的参数
             String name = user.getUsername();
             String passwd = user.getPassword();
@@ -37,4 +36,25 @@ public class LoginServiceImpl  implements LoginService{
         }
 
     }
+
+    @Override
+    public User selectUser(String name){
+        User user1 = new User();
+        try{
+            //连接数据库
+            Connection connection = GetConnectToMysql.getconn();
+            String condition="select * from user where username = '"+name+ "'";
+            Statement sql=connection.createStatement();
+            ResultSet rs=sql.executeQuery(condition);
+            rs.next();
+            user1.setPhoneNum(rs.getString("phoneNum"));
+            user1.setUsername(rs.getString("username"));
+            user1.setPassword(rs.getString("password"));
+            user1.setContribution(rs.getInt("contribution"));
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return user1;
+    }
+
 }

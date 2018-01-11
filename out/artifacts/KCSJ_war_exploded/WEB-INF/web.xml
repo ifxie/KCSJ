@@ -13,13 +13,14 @@
         <servlet-name>login</servlet-name>
         <url-pattern>/login</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>regist</servlet-name>
         <servlet-class>servlet.RegistController</servlet-class>
     </servlet>
     <servlet-mapping>
-    <servlet-name>regist</servlet-name>
-    <url-pattern>/regist</url-pattern>
+        <servlet-name>regist</servlet-name>
+        <url-pattern>/regist</url-pattern>
     </servlet-mapping>
 
     <servlet>
@@ -32,24 +33,105 @@
     </servlet-mapping>
 
     <servlet>
-        <servlet-name>fileupload</servlet-name>
-        <servlet-class>servlet.FileUpLoadController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>fileupload</servlet-name>
-        <url-pattern>/fileupload</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
         <servlet-name>upload</servlet-name>
-        <servlet-class>servlet.Upload</servlet-class>
+        <servlet-class>servlet.FileUploadController</servlet-class>
     </servlet>
     <servlet-mapping>
         <servlet-name>upload</servlet-name>
         <url-pattern>/upload</url-pattern>
     </servlet-mapping>
 
-    <!--连接池-->
+    <servlet>
+        <servlet-name>exit</servlet-name>
+        <servlet-class>servlet.ExitController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>exit</servlet-name>
+        <url-pattern>/exit</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>select_sorece</servlet-name>
+        <servlet-class>servlet.SelectController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>select_sorece</servlet-name>
+        <url-pattern>/select_sorece</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>quarry</servlet-name>
+        <servlet-class>servlet.QuarryController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>quarry</servlet-name>
+        <url-pattern>/quarry</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>do</servlet-name>
+        <servlet-class>servlet.StsController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+    <servlet-name>do</servlet-name>
+    <url-pattern>/do</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sendmail</servlet-name>
+        <servlet-class>servlet.SendMailController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sendmail</servlet-name>
+        <url-pattern>/sendmail</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>save</servlet-name>
+        <servlet-class>servlet.SaveFileController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>save</servlet-name>
+        <url-pattern>/save</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>load</servlet-name>
+        <servlet-class>servlet.LoadController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>load</servlet-name>
+        <url-pattern>/load</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>readnote</servlet-name>
+        <servlet-class>servlet.ReadNoteController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>readnote</servlet-name>
+        <url-pattern>/readnote</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>bookquarry</servlet-name>
+        <servlet-class>servlet.BookQuarryController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>bookquarry</servlet-name>
+        <url-pattern>/bookquarry</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>savefiletodb</servlet-name>
+        <servlet-class>servlet.SavefiletodbController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>savefiletodb</servlet-name>
+        <url-pattern>/savefiletodb</url-pattern>
+    </servlet-mapping>
+
+    <!--连接池配置-->
     <resource-ref>
         <description>DB Connection</description>
         <res-ref-name>jdbc/mydb</res-ref-name>

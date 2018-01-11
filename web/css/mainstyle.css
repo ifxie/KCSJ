@@ -11,12 +11,12 @@ body{
 }
 .info{
     width: 100%;
-    height: 90px;
+    height: 80px;
     background-color: #dddddd
 }
 .info .logo{
     float: left;
-    height: 90px;
+    height: 80px;
     width: 31.56%;
     margin-left: 7.81%;
 }
@@ -35,7 +35,6 @@ body{
     float: left;
     border-radius: 5px;
 
-
 }
 .info .search #input2{
     height: 39px;
@@ -46,4 +45,168 @@ body{
 .content{
     margin-left: 100px;
     height: 1500px;
+}
+
+.info .loginOrRegister{
+    float:left;
+    margin-top: 34px;
+
+}
+
+.info .haslogin{
+    float:left;
+    margin-top: 34px;
+
+}
+#overDiv{
+    background-color:#000;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0; /*FF IE7*/
+    filter: alpha(opacity = 65); /*IE*/
+    opacity: 0.65; /*FF*/
+    z-index: 110;
+    position: fixed !important; /*FF IE7*/
+    position: absolute; /*IE6*/
+}
+/*登录所需*/
+#loginDiv{
+    background:#fff;
+    z-index: 120;
+    width: 350px;
+    height: 280px;
+    left: 43%; /*FF IE7*/
+    top: 37%; /*FF IE7*/
+    margin-left: -150px !important; /*FF IE7 该值为本身宽的一半 */
+    margin-top: -60px !important; /*FF IE7 该值为本身高的一半*/
+    margin-top: 0px;
+    position: fixed !important; /*FF IE7*/
+    position: absolute; /*IE6*/
+}
+#registerDiv{
+    background:#fff;
+    z-index: 120;
+    width: 500px;
+    height: 400px;
+    left: 43%; /*FF IE7*/
+    top: 37%; /*FF IE7*/
+    margin-left: -150px !important; /*FF IE7 该值为本身宽的一半 */
+    margin-top: -60px !important; /*FF IE7 该值为本身高的一半*/
+    margin-top: 0px;
+    position: fixed !important; /*FF IE7*/
+    position: absolute; /*IE6*/
+}
+#closediv1{
+    margin-left: 334px;
+}
+#dlTitle1{
+    width:300px;
+    height: 30px;
+    font-size:18px;
+    margin: auto auto auto 150px;
+}
+#logintb{
+    width: 500px;
+    height:120px;
+    border: 0px;
+    margin-top: 15px;
+}
+#logintb .logintd1
+{
+    height:35px;
+    font-size:18px;
+    color: #888888;
+    vertical-align: middle;
+    padding-left: 20px;
+}
+#logintb .logintd2
+{
+    height:auto;
+}
+#logintb td a{
+    float: right;
+}
+.logintd2 input{
+    width:200px;
+    height: 32px;
+    margin-right: 110px;
+}
+#loginbutton{
+    background-color: #316a91;
+    color: white;
+    margin-top: 15px;
+    margin-left: 150px;
+    border-radius: 5px;
+}
+#loginbutton:hover{
+    background-color: #629feb;
+}
+/*注册所需*/
+#registerDiv{
+    background:#fff;
+    z-index: 120;
+    width: 500px;
+    height: 360px;
+    left: 43%; /*FF IE7*/
+    top: 37%; /*FF IE7*/
+    margin-left: -150px !important; /*FF IE7 该值为本身宽的一半 */
+    margin-top: -60px !important; /*FF IE7 该值为本身高的一半*/
+    margin-top: 0px;
+    position: fixed !important; /*FF IE7*/
+    position: absolute; /*IE6*/
+}
+#dlTitle2{
+    width:400px;
+    height: 30px;
+    font-size:18px;
+    margin: auto auto auto 230px;
+}
+#closediv2{
+    margin-left: 485px;
+}
+#registertb{
+    width: 500px;
+    height:auto;
+    border: 0px;
+    margin-top: 15px;
+}
+#registertb .registertd1
+{
+    height:35px;
+    font-size:18px;
+    color: #888888;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+#registertb .registertd2
+{
+    height:auto;
+}
+#registertd td a{
+    float: right;
+}
+.registertd2 input{
+    width: 250px;
+    height: 32px;
+}
+#yes{
+    background-color: #316a91;
+    color: white;
+    margin-left: 130px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+#yes:hover{
+    background-color: #629feb;
+}
+#no{
+    background-color: #316a91;
+    color: white;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+#no:hover{
+    background-color: #629feb;
 }

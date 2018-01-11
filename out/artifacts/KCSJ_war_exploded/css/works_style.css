@@ -43,25 +43,25 @@
     width: 39.56%;
     height: 200px;
     border: solid 1px #000000;
-    border-radius:5px;
+    border-radius:10px;
     float: left;
 }
 .row1{
     margin-top: 10px;
     width: 100%;
     height: 50px;
-    border: solid 1px #000;
+
 }
 .row1 .project-name{
     width: 45%;
     height: 100%;
     margin-left: 5%;
-    background-color: #313131;
     font-size: 30px;
+    font-weight: bold;
     text-align: center;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    color: #FFFFFF;
+    color: #07111b;
     font-family: 宋体;
     float: left;
 }
@@ -75,18 +75,19 @@
     color: #FFFFFF;
     font-family: 宋体;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 16px;
+    padding-top: 16px;
 }
 .row1 .project-celection{
     width: 20%;
     height: 50px;
-    margin-left: 5%;
+    margin-left: 20%;
     /*background-color: #313131;*/
     float: left;
     color: #FFFFFF;
     font-family: 宋体;
     font-size: 20px;
-    padding-top: 20px;
+    padding-top: 16px;
 }
 .row2{
     height: 140px;
@@ -94,26 +95,23 @@
 
 }
 .project-system-environment{
-        width: 27.777%;
-        height: 120px;
-        border: solid 1px red;
-        margin:10px 2.222%;
-        float: left;
-        border-radius: 5px;
-}
-.project-introduce{
-    width: 27.777%;
-    height: 120px;
-    border: solid 1px red;
-    margin:10px 2.222%;
+    width: 80%;
+    height: 30px;
+    margin-left: 3%;
     float: left;
     border-radius: 5px;
 }
-.project-hardware_configuration{
-    width: 27.777%;
-    height: 120px;
-    border: solid 1px red;
-    margin:10px 2.222%;
+.project-introduce{
+    width: 80%;
+    height: 70px;
+    margin-left: 3%;
+    float: left;
+    border-radius: 5px;
+}
+.project-member{
+    width: 80%;
+    height: 30px;
+    margin-left: 3%;
     float: left;
     border-radius: 5px;
 }

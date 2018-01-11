@@ -5,8 +5,7 @@ $(function(){
     setTimeout(function () {
         $(window).bind("scroll", function(){
             var roll= $(this).scrollTop(); // 当前窗口的滚动距离
-            console.log(roll);
-            var roll1=90-roll;
+            var roll1=80-roll;
            if (roll1>=0){
                $(".nav-main").css("top",roll1+"px");
             }else{

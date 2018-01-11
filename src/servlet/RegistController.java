@@ -40,7 +40,7 @@ public class RegistController extends HttpServlet {
         String username = request.getParameter("username").trim();
         String password = request.getParameter("password").trim();
         String code = request.getParameter("code").trim();
-        String sec_password = request.getParameter("sec_password").trim();
+        String sec_password = request.getParameter("sed_password").trim();
         User user = new User();
         user.setPhoneNum(phoneNum);
         user.setUsername(username);
@@ -55,17 +55,17 @@ public class RegistController extends HttpServlet {
             if(code.equals(codeOfsession)) {
                 String resp_message = registService.regist(user, sec_password);
                 if (resp_message.equals("password different")) {
-                    response.sendRedirect("login.jsp");
+                    response.sendRedirect("index.jsp");
                     session.setAttribute("message", "password different");
                 }
                 if (resp_message.equals("注册成功")) {
                     response.sendRedirect("index.jsp");
                 } else {
-                    response.sendRedirect("login.jsp");
+                    response.sendRedirect("index.jsp");
                     session.setAttribute("message", "信息填写有非法字符");
                 }
             }else {
-                response.sendRedirect("login.jsp");
+                response.sendRedirect("index.jsp");
                 session.setAttribute("message", "验证码错误");
             }
         } catch (IOException e) {

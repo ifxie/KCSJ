@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="http://gosspublic.alicdn.com/aliyun-oss-sdk-4.4.4.min.js"></script>
+</head>
+<body>
+<input type="text" id="path">
+<input type="file" id="file" />
+<script type="text/javascript">
+    function guid() {
+        function s4() {
+            return Math.floor((1 + Math.random()) * 0x10000)
+                .toString(16)
+                .substring(1);
+        }
+        return s4() + s4() + s4() + s4() +
+            s4() + s4() + s4() + s4();
+    }
+    document.getElementById('file').addEventListener('change', function (e) {
+        var file = e.target.files[0];
+        var uuid = guid();
+        var path = document.getElementById('path').value
+        var storeAs = '/'+path+'/'+file.name;
+        console.log(file.name + ' => ' + storeAs);
+        OSS.urllib.request("http://localhost:8080/do",
+            {method: 'GET'},
+            function (err, response) {
+                if (err) {
+                    return alert(err);
+                }
+                try {
+                    result = JSON.parse(response);
+                    console.log(result);
+                } catch (e) {
+                    return alert('parse sts response info error: ' + e.message);
+                }
+                var client = new OSS.Wrapper({
+                    accessKeyId: result.AccessKeyId,
+                    accessKeySecret: result.AccessKeySecret,
+                    stsToken: result.SecurityToken,
+                    endpoint: 'oss-cn-hangzhou.aliyuncs.com',
+                    bucket: 'mengzh'
+                });
+                client.multipartUpload(storeAs, file).then(function (result) {
+                    console.log(result);
+                }).catch(function (err) {
+                    console.log(err);
+                });
+            });
+    });
+</script>
+</body>
+</html>

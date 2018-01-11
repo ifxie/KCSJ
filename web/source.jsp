@@ -1,3 +1,4 @@
+<%@ page import="bean.SourceFile" %>
 <%@ page contentType="text/html; charset=UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -8,7 +9,7 @@
     <link rel="stylesheet" href="css/nav_left.css">
     <link rel="stylesheet" href="css/source_style.css">
 
-    <%@ include file="head.txt" %>
+    <%@ include file="head.jsp" %>
     <script type="text/javascript" src="js/showlist.js"></script>
     <div class="content">
         <div class="main-in content-in">
@@ -19,13 +20,15 @@
                         <li >
                             <h4 >相关专业教程</h4>
                             <div class="list-item none">
-                                <p ><a href="#" target="_self">韩顺平java入门视频</a></p>
-                                <p ><a href="#" target="_self">马士兵java入门视频</a></p>
-                                <p ><a href="#" target="_self">马士兵java入门视频</a></p>
-                                <p ><a href="#" target="_self">马士兵java入门视频</a></p>
-                                <p ><a href="#" target="_self">马士兵java入门视频</a></p>
-                                <p ><a href="#" target="_self">马士兵java入门视频</a></p>
-                                <p ><a href="#" target="_self">马士兵java入门视频</a></p>
+                                <%for(int i=0;i<7;i++){%>
+                                <p ><a href="javasctipt:void(0);" onclick='select_source("zh_expression_web_1_cd_X13-09212.iso")' target="_self">韩顺平java入门视频</a></p>
+                                <%}%>
+                                <%--<p ><a href="#" target="_self">马士兵java入门视频</a></p>--%>
+                                <%--<p ><a href="#" target="_self">马士兵java入门视频</a></p>--%>
+                                <%--<p ><a href="#" target="_self">马士兵java入门视频</a></p>--%>
+                                <%--<p ><a href="#" target="_self">马士兵java入门视频</a></p>--%>
+                                <%--<p ><a href="#" target="_self">马士兵java入门视频</a></p>--%>
+                                <%--<p ><a href="#" target="_self">马士兵java入门视频</a></p>--%>
                                 <p ><a href="#" target="_self">马士兵java入门视频</a></p>
                             </div>
                         </li>
@@ -93,26 +96,46 @@
                 </div>
             </div>
         </div>
+        <%
+            SourceFile file = (SourceFile)session.getAttribute("file");
+            if(file != null){
+        %>
         <div class="show">
             <div class="detail">
                 <dl>
                     <dt><h3>文件名</h3></dt>
-                    <dd>zh_expression_web_1_cd_X13-09212.iso</dd>
+                    <dd><%=file.getFilename()%></dd>
                     <dt><h3>SHA1</h3></dt>
-                    <dd>83C1A0DB15FE162CC2F6C3FA032B3FBDA691DE19</dd>
+                    <dd><%=file.getSha1()%></dd>
                     <dt><h3>百度网盘</h3></dt>
-                    <dd>http://pan.baidu.com/s/1hrD3fZe 密码: 9r2u</dd>
+                    <dd><a href="<%=file.getLocation()%>"><%=file.getLocation()%> </a>密码: <%=file.getFilepassword()%></dd>
                     <dt><h3>文件大小</h3></dt>
-                    <dd>396.16MB</dd>
+                    <dd><%=file.getFilesize()%></dd>
                     <dt><h3>发布时间</h3></dt>
-                    <dd>2007-04-13</dd>
+                    <dd><%=file.getLoadTime()%></dd>
                 </dl>
                 <pre>
-                    ed2k://|file|zh_expression_web_1_cd_X13-09212.iso|415404032|43C781C496B044960D57C08E483D8B48|/
+                    <%=file.getLianjie()%>
                 </pre>
             </div>
         </div>
+        <%}%>
     </div>
 </div>
 </body>
+<script>
+    function select_source(filename) {
+        $.ajax({
+            type:"post",
+            url:"/select_sorece",
+            data:{
+                filename:filename
+            },
+            success:function(res){
+                console.log(res);
+                window.location.href="source.jsp";
+            }
+        });
+    }
+</script>
 </html>

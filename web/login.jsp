@@ -64,7 +64,7 @@
 <a href="index.jsp">返回主页</a>
 <a href="register.jsp">跳转至注册页</a>
 <div class="loginframe">
-    <form action="" name="Login" method="post">
+    <form action="login" name="Login" method="post">
         <div class="tiao frameName">
             <font size="6">登入</font>
         </div>
@@ -85,7 +85,7 @@
             </div>
         </div>
         <div class="tiao">
-            <input type="button" value="登录" style="width: 100px;height: 40px" id="loginbutton">
+            <input type="submit" value="登录" style="width: 100px;height: 40px" id="loginbutton">
         </div>
     </form>
 </div>

@@ -1,6 +1,9 @@
 package servlet;
 
+
+import net.sf.json.JSONObject;
 import utils.PhoneUtils;
+import utils.ResponseJson;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -22,13 +25,17 @@ public class SendcodeController extends HttpServlet {
             String phoneNum = request.getParameter("phoneNum");
             int codes= (int) ((Math.random()*9000)+1000);
             String result = PhoneUtils.Send_PhoneCode(phoneNum, codes + "");
+            JSONObject json = new JSONObject();
             if(result.equals("success")){
-                response.sendRedirect("login.jsp");
+
+                json.put("res",1);
                 session.setAttribute("code",codes+"");
             }else{
-                response.sendRedirect("login.jsp");
+                json.put("res",0);
                 session.setAttribute("message","发送验证码失败");
             }
+
+            ResponseJson.responseJSON(response,json.toString());
         }catch (Exception e){
 
         }
